@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ActivityFoods">
+
+    <item
+        android:id="@+id/action_newFood"
+        android:orderInCategory="200"
+        android:title="@string/action_newFood"
+        android:icon="@drawable/ic_action_new"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_searchFood"
+        android:orderInCategory="100"
+        android:title="@string/action_searchFood"
+        android:icon="@drawable/ic_open_search"
+        app:showAsAction="ifRoom"/>
+</menu>

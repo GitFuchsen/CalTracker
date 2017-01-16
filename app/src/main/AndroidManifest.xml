@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.fhdw.bfwi115a.caltracker.app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- The main/home activity (it has no parent activity) -->
+        <activity
+            android:name=".ActivityDashboard"
+            android:label="@string/title_activity_dashboard">
+
+            <!-- Set intent for app launch -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 1st child of the main activity -->
+        <activity
+            android:name=".ActivityRecipes"
+            android:label="@string/title_activity_recipes"
+            android:parentActivityName=".ActivityDashboard">
+
+            <!-- Supporting API 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.fhdw.bfwi115a.caltracker.app.ActivityDashboard" />
+        </activity>
+
+        <!-- 2nd child of the main activity -->
+        <activity
+            android:name=".ActivityFoods"
+            android:label="@string/title_activity_foods"
+            android:parentActivityName=".ActivityDashboard">
+
+            <!-- Supporting API 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.fhdw.bfwi115a.caltracker.app.ActivityDashboard" />
+        </activity>
+
+        <!-- 3rd child of the main activity -->
+        <activity
+            android:name=".ActivityFavourites"
+            android:label="@string/title_activity_favourites"
+            android:parentActivityName=".ActivityDashboard">
+
+            <!-- Supporting API 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.fhdw.bfwi115a.caltracker.app.ActivityDashboard" />
+        </activity>
+
+        <!-- 4th child of the main activity -->
+        <activity
+            android:name=".ActivityHistory"
+            android:label="@string/title_activity_history"
+            android:parentActivityName=".ActivityDashboard">
+
+            <!-- Supporting API 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.fhdw.bfwi115a.caltracker.app.ActivityDashboard" />
+        </activity>
+
+        <!-- 5th child of the main activity -->
+        <activity
+            android:name=".ActivitySettings"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".ActivityDashboard">
+
+            <!-- Supporting API 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.fhdw.bfwi115a.caltracker.app.ActivityDashboard" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- General Project Strings -->
+
+    <string name="app_name">CalTracker</string>
+    <string name="workgroup" translatable="false">BFWI115A</string>
+
+    <!-- Strings related to Activities -->
+
+    <string name="title_activity_dashboard" translatable="false">Dashboard</string>
+    <string name="title_activity_recipes" translatable="true">Recipes</string>
+    <string name="title_activity_foods" translatable="true">Foods</string>
+    <string name="title_activity_favourites" translatable="true">Favourites</string>
+    <string name="title_activity_history" translatable="true">History</string>
+    <string name="title_activity_settings" translatable="true">Settings</string>
+
+    <string name="dashboard_drawer_open" translatable="true">Open navigation drawer</string>
+    <string name="dashboard_drawer_close" translatable="true">Close navigation drawer</string>
+
+    <!-- Strings related to Overflow Menu actions in AppBar -->
+
+    <string name="action_settings" translatable="true">Settings</string>
+    <string name="action_newRecipe" translatable="true">New Recipe</string>
+    <string name="action_newFood" translatable="true">New Food</string>
+    <string name="action_searchFood" translatable="true">Search Food</string>
+
+    <!-- Strings related to Content -->
+
+    <string name="textView_date">Select Date</string>
+
+    <!-- Strings related to Preferences -->
+
+    <string name="title_preference_language" translatable="true">Language</string>
+    <string name="KEY_PREFERENCE_LANGUAGE" translatable="false">LanguageList</string>
+    <string name="title_preference_dailyMax" translatable="true">Daily Maximum</string>
+    <string name="KEY_PREFERENCE_DAILY_MAX" translatable="false">DailyMax</string>
+    <string name="summary_preference_dailyMax" translatable="true">Set maximum</string>
+    <string name="default_preference_dailyMax" translatable="false">1500</string>
+    <string name="lang_system_default" translatable="true">System default</string>
+    <string name="lang_german" translatable="true">German</string>
+    <string name="lang_english" translatable="true">English</string>
+
+</resources>

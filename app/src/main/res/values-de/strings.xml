@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CalTracker</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="dashboard_drawer_close">Navigation schließen</string>
+    <string name="dashboard_drawer_open">Navigation öffnen</string>
+    <string name="title_activity_recipes">Rezepte</string>
+    <string name="title_activity_foods">Lebensmittel</string>
+    <string name="title_activity_favourites">Favouriten</string>
+    <string name="title_activity_history">Verlauf</string>
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="lang_system_default">Systemvorgabe</string>
+    <string name="lang_german">Deutsch</string>
+    <string name="title_preference_language">Sprache</string>
+    <string name="action_newRecipe">neues Rezept</string>
+    <string name="action_newFood">neues Lebensmittel</string>
+    <string name="lang_english">Englisch</string>
+    <string name="title_preference_dailyMax">Tageshöchstwert</string>
+    <string name="summary_preference_dailyMax">Wert festlegen</string>
+</resources>
